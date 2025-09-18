@@ -71,3 +71,5 @@ GitHub: [@Subhajyoti-Maity](https://github.com/Subhajyoti-Maity)
 ---
 
 ⭐ **Star this repo if you found it helpful!**
+
+> **Note:** This project uses the `main` branch as the primary branch.
