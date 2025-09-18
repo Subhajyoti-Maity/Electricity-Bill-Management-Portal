@@ -83,13 +83,39 @@ npm start
 
 ## 📁 Project Structure
 ```
-├── backend/          # Node.js API
-│   ├── models/       # Database models
-│   ├── config/       # Database connection
-│   └── index.js      # Main server
-├── frontend/         # React app
-│   └── src/pages/    # App components
-└── package.json      # Root scripts
+Electricity-Bill-Management-Portal/
+├── backend/                    # Node.js Express Server
+│   ├── config/
+│   │   └── db.js              # MongoDB connection setup
+│   ├── models/
+│   │   ├── User.js            # User schema for authentication
+│   │   └── Bill.js            # Bill schema for electricity bills
+│   ├── .env.example           # Environment variables template
+│   ├── .env                   # Environment variables (not in git)
+│   ├── index.js               # Main server file with all API routes
+│   ├── package.json           # Backend dependencies
+│   └── package-lock.json      # Backend lock file
+├── frontend/                   # React Application
+│   ├── public/
+│   │   └── index.html         # HTML template
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Login.js       # User authentication page
+│   │   │   ├── Signup.js      # User registration page
+│   │   │   ├── Dashboard.js   # Main dashboard with analytics
+│   │   │   ├── Bills.js       # Bill management page
+│   │   │   └── Estimator.js   # Bill estimation tool
+│   │   ├── App.js             # Main App component with routing
+│   │   ├── index.js           # React entry point
+│   │   ├── index.css          # Global styles
+│   │   └── electricity-logo.svg # App logo
+│   ├── build/                 # Production build (auto-generated)
+│   ├── package.json           # Frontend dependencies
+│   └── package-lock.json      # Frontend lock file
+├── .gitignore                 # Git ignore rules (includes .env)
+├── package.json               # Root package with concurrently scripts
+├── package-lock.json          # Root lock file
+└── README.md                  # Project documentation
 ```
 
 ## 🔒 Environment Setup
