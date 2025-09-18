@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dbe20585.css",
+    "main.js": "/static/js/main.1958f089.js",
+    "index.html": "/index.html",
+    "static/media/electricity-logo.svg": "/static/media/electricity-logo.85d24f573c6288a9d3a0226e541042d8.svg",
+    "main.dbe20585.css.map": "/static/css/main.dbe20585.css.map",
+    "main.1958f089.js.map": "/static/js/main.1958f089.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbe20585.css",
+    "static/js/main.1958f089.js"
+  ]
+}

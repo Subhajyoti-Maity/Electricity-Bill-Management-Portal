@@ -1,0 +1,91 @@
+body {
+  background-repeat: repeat;
+}
+
+.card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px #00897b22, 0 1.5px 8px #0001;
+  padding: 40px 32px;
+  margin: 40px auto;
+  max-width: 520px;
+  border: 1.5px solid #b2dfdb;
+}
+
+button {
+  margin: 0 4px;
+  padding: 10px 24px;
+  background: linear-gradient(90deg, #26c6da 60%, #00897b 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0001;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+button:hover {
+  background: linear-gradient(90deg, #00897b 60%, #26c6da 100%);
+  box-shadow: 0 4px 16px #0002;
+}
+
+input, select {
+  margin: 6px 0;
+  padding: 10px 12px;
+  border: 1px solid #b0c4de;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f8fbff;
+  transition: border 0.2s;
+  outline: none;
+}
+input:focus, select:focus {
+  border: 1.5px solid #00897b;
+}
+
+table {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px #00897b22, 0 1.5px 8px #0001;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 32px 0;
+  overflow: hidden;
+  border: 1.5px solid #b2dfdb;
+}
+th, td {
+  padding: 18px 14px;
+  text-align: left;
+}
+th {
+  background: linear-gradient(90deg, #26c6da 60%, #00897b 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-bottom: 2px solid #b2dfdb;
+}
+tr:not(:last-child) td {
+  border-bottom: 1px solid #e3f0ff;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+.center {
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+.header-title {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: none;
+}
